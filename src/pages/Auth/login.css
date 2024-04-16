@@ -1,4 +1,7 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
     margin: 0;padding: 0;box-sizing: border-box;
 }
 
@@ -30,4 +33,62 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+}
+
+.auth-form-caption {
+    color: #411530;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.auth-input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.auth-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.auth-input {
+    height: 56px;
+    width: 420px;
+    border-radius: 8px;
+    border: 1px solid #F9E3F0;
+    padding: 16px;
+}
+
+.login-btn {
+    height: 56px;
+    width: 420px;
+    border-radius: 8px;
+    background-color: #80295E;
+    border: none;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login-forgot {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #80295E;
+    text-decoration: none;
+}
+
+.login-advice {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #411530;
+    text-decoration: none;
 }

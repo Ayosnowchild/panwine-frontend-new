@@ -3,6 +3,8 @@ import App from "../App";
 import ErrorPage from "../errorpage";
 import Home from "../pages/Home";
 import Login from "../pages/Auth/Login";
+import Signup from "../pages/Auth/Signup";
+import ForgotPassword from "../pages/Auth/ForgotPassword";
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +17,8 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       { path: "/login", element: <Login /> },
+      { path: "/signup", element: <Signup /> },
+      { path: "forgot-password", element: <ForgotPassword /> },
     ],
   },
 ]);
